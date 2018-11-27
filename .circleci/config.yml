@@ -4,6 +4,8 @@ jobs:
   dotnet:
     docker:
       - image: microsoft/dotnet:2.2-sdk
+    steps:
+      - checkout
 
 workflows:
   version: 2
